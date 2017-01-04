@@ -1,0 +1,88 @@
+div.backimage ul{
+list-style:none;
+margin-top:-1%;
+margin-left:-4%;
+}
+div.backimage ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+div.backimage ul li{
+position:relative;
+float:left;
+width:150px;
+background-color:black;
+display:block;
+text-align:center;
+padding-top:20px;
+padding-bottom:20px;
+font-size:18px;
+}
+
+ ul li :hover{
+ color:gray;
+background-color:red;
+display:block;
+}
+
+ul ul{
+position:absolute;
+padding:0px;
+margin:0px;
+display:none;
+}
+ul li:hover > ul{
+ display:block;
+ background-color:pink;
+}
+
+ul ul ul{
+margin-left:150px;
+position:absolute;
+top:0px;
+}
+
+div.backimage{
+background-image: url("nav.jpg");
+}
+div.band{
+ text-align :center;
+background-color:black;
+color:white;
+margin-top:-1.5%;
+padding-top:3%;
+padding-bottom:3%;
+}
+div.band p{
+letter-spacing:2px;
+font-size:17px;
+}
+
+
+div.block ul li{
+color:red;
+background-color:gray;
+width:100px;
+text-align:center;
+height:5%;
+position:fixe;
+padding-top:2%;
+padding-bottom:2%;
+border:1px solid black;
+}
+
+div.block ul{
+list-style:none;
+margin-left:-3.5%;
+display:block;
+}
+div.block ul li a{
+display:block;
+text-decoration:none;
+}
+
+
+
+
+
